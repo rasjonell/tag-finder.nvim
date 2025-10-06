@@ -1,5 +1,7 @@
 # tag-finder.nvim
 
+https://github.com/user-attachments/assets/0ba01455-6990-4877-8cc2-b959c40f0b2d
+
 Tag the parts of your code that matter and find them instantly. tag-finder.nvim indexes lightweight inline tags (e.g., `@tags API, auth`) across your project and lets you jump to files by tag, browse all tags, and even run live grep limited to files matching a tag. Use it standalone or with Telescope for a slick picker experience.
 
 ## Why Tag Finder?
@@ -35,7 +37,7 @@ Using lazy.nvim:
 
 ```lua
 {
-  "rasjonell/tag-finder.nvim", -- adjust if needed
+  "rasjonell/tag-finder.nvim",
   -- if you want telescope enabled
   dependencies = {
     'nvim-telescope/telescope.nvim',
